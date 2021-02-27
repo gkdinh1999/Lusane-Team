@@ -1,0 +1,564 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Home </title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/grid.css">
+	</head>
+
+
+	<body>
+	<div class="grid-container">
+		<header>
+		<img src="img/logo.png" alt="Company logo">
+		<h1>HOME</h1>	
+		<div>
+		<nav class="nav-button">
+		<ul>
+			<li>
+				<a href="Home.html">Home</a> 
+			</li>
+			<li>
+				<a href="UI-Pattern-Elements.html">UI Pattern Elements</a>
+			</li>
+			<li>
+				<a href="Conventions.html">Conventions</a>
+			</li>
+			<li>
+				<a href="Citations.html">Citations</a> 
+			</li>
+			<li>
+				<a href="Wireframes.html">Wireframes</a> 
+			</li>
+		</ul>
+		</nav>
+		</div>
+		</header>
+		<div id="text-styling">
+			<h2> Text Styling </h2>
+			<div id="levels-of-headings">
+			
+				<h3>Header</h3>
+				<h4>Rendered Elements:</h4>			
+				<h2 class="levels-of-heading">Header 1</h2>
+				<h3 class="levels-of-heading">Header 2</h3>
+				<h4 class="levels-of-heading">Header 3</h4>
+				<h4>CSS selector:</h4>
+				<p> .levels-of-heading </p>			
+				<h4>Sample code:</h4>
+			
+					<code>
+&lt; h2 class="levels-of-heading" &gt; Header 1 &lt; /h2 &gt;
+&lt; h3 class="levels-of-heading" &gt; Header 2 &lt; /h3 &gt;
+&lt; h4 class="levels-of-heading" &gt; Header 4 &lt; /h4 &gt; 
+					</code>
+				
+			</div>
+			
+			<div id="paragraphs">
+				<h3>Paragraph</h3>
+				<h4>Rendered Elements:</h4>		
+				<p class="paragraph">It is a long established fact that a reader will be distracted by the readable content of a page 
+				when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
+				of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+				<h4>CSS selector:</h4>
+				<p> .paragraph </p>
+				<h4>Sample code:</h4>
+				<code>
+					 &lt; p &gt; It is a long established fact that a reader will be distracted by the readable content of a page 
+					when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
+					of letters, as opposed to using 'Content here, content here', making it look like readable English  &lt; /p &gt; 	
+				</code>
+				<h4>Function:</h4>
+				<p> &lt; p &gt; is used for creating a block of content for the page </p>
+			</div>
+			
+			
+			<div id="bulletted-list">
+				<h3>Bulletted List</h3>
+				<h4>Rendered Elements:</h4>	
+				<ul class="blist">
+					<li>Shirt</li>
+					<li>Jactket</li>
+					<li>Coat</li>
+				</ul>
+				<h4>CSS selector:</h4>
+				<p> .blist </p>
+				<h4>Sample code:</h4>
+				<pre>
+					<code>								
+&lt; ul class="blist" &gt;
+	&lt; li &gt; Shirt &lt; /li &gt;
+	&lt; li &gt; Jactket &lt; /li &gt;
+	&lt; li &gt; Coat &lt; /li &gt;
+&lt; /ul &gt;
+					</code>
+				</pre>
+				<h4>Function:</h4>
+				<p> &lt; ul &gt; & &lt; li &gt; are used to create an unordered list without numbers</p>
+			</div>
+			
+			<div id="numbered-list">
+				<h3>Numbered List</h3>
+				<h4>Rendered Elements:</h4>			
+				<ol class="nlist">
+					<li>Shirt</li>
+					<li>Jactket</li>
+					<li>Coat</li>
+				</ol>
+				<h4>CSS selector:</h4>
+				<p> .blist </p>
+				<h4>Sample code:</h4>
+				
+					<code>								
+&lt; ol class="blist" &gt;
+	&lt; li &gt; Shirt &lt; /li &gt;
+	&lt; li &gt; Jactket &lt; /li &gt;
+	&lt; li &gt; Coat &lt; /li &gt;
+&lt; /ol &gt;
+					</code>
+				
+				<h4>Function:</h4>
+				<p> &lt; ol &gt; & &lt; li &gt; are used to create an ordered list with numbers </p>
+			</div>
+		</div>
+		<div id="check-out">			
+			<h2>Module site UI element</h2>
+			<h4>Rendered Elements:</h4>	
+			<div>
+			<p> Your Shopping Bag </p>
+			<div id="shopping-detail">
+			<div class="no-border">
+				<img src="img/item1.png" alt="Item 1 for Check-out" width="400" >				
+			</div>
+			<div class="item">
+				<p> 
+				This windbreaker
+				<br>Colour: White
+				<br>Side: M
+				<br>$1000
+				<br>Made in Vietnam
+				<br><a class="intext" href="edit-details"> Edit Details </a>
+				<br><a class="intext" href="add-to-wish-list"> Add to Wish List </a>
+				<br><a class="intext" href="remove"> Remove </a>
+				</p>
+			</div>
+			<div class="background-color">
+				<h4 class="item">ORDER SUMMARY ($CAD)</h4>
+				<div id="total">
+				<div class="left">
+				<br>SUBTOTAL                              
+				<br>SHIPPING                               
+				<br>ESTIMATED                     
+				<b><br>ESTIMATED </b>                           
+				</div>
+				<div class="right">
+				<br> $1340
+				<br> FREE
+				<br> SALES TAX N/A
+				<b><br>TOTAL</b>
+				</div>
+				<div class="all">
+				<br><a class="nav-button-addtobag" href="check-out"> Check Out </a>
+				<br><a class="nav-button-checkout" href="continue-shopping"> Continue Shopping </a>
+				</div>
+				</div>
+			</div>
+						<div class="no-border">
+				<img src="img/item2.png" alt="Item 2 for Check-out" width="400" >
+			</div>
+			
+			<div class="item">
+			<p> 
+				This windbreaker
+				<br>Colour: White
+				<br>Side: S
+				<br>$1000
+				<br>Made in Vietnam
+				<br><a class="intext" href="edit-details"> Edit Details </a>
+				<br><a class="intext" href="add-to-wish-list"> Add to Wish List </a>
+				<br><a class="intext" href="remove"> Remove </a>
+			</p>
+			</div>
+			
+			</div>
+			</div>
+			<h4>CSS selector:</h4>
+			<p> #shopping-detail, .no-border,.item, .intext,background-color,.total,.right,.left,.all  </p>
+			<h4>Sample code:</h4>				
+
+			<code>
+&lt; section &gt;
+&lt; p &gt; Your Shopping Bag &lt; /p &gt;
+&lt; div &gt;
+	&lt; img src="img/item1.png" alt="Item 1 for Check-out" width="400" &gt; 
+	&lt; p &gt;
+	This windbreaker
+	&lt; br &gt; Colour: White
+	&lt; br &gt; Side: S
+	&lt; br &gt; $1000
+	&lt; br &gt; Made in Vietnam
+	&lt; br &gt; &lt; a id="edit-details" href="edit-details"> Edit Details &lt; /a &gt; 
+	&lt; br &gt; &lt; a id="add-to-wish-list" href="add-to-wish-list"> Add to Wish List &lt; /a &gt;
+	&lt; br &gt; &lt; a id="remove" href="remove"> Remove &lt; /a &gt;
+	&lt; /p &gt;
+	&lt; /div &gt;
+&lt; div &gt;
+	&lt; p &gt; ORDER SUMMARY ($CAD)
+	&lt; br &gt; SUBTOTAL $1340
+	&lt; br &gt; SHIPPING FREE
+	&lt; br &gt; ESTIMATED SALES TAX N/A
+	&lt; br &gt; ESTIMATED TOTAL
+	&lt; br &gt; &lt; a id="check-out" href="check-out"> Check Out &lt; /a &gt;
+	&lt; br &gt; &lt; a id="continue-shopping" href="continue-shopping"> Continue Shopping &lt; /a &gt;
+	&lt; /p &gt;
+&lt; /div>
+			</code>
+
+			<h4>Function:</h4>
+			<p> This is a form for checking out shopping bag by using different code elements </p>
+			</div>
+		<div id="interactive-elements">
+			<h2>Interactive Elements</h2>
+			<div id="link-in-text">
+			
+				<h3>Link in Text</h3>
+				<h4>Rendered Elements:</h4>		
+				<a class="intext" href="in-text-link">Click Here</a>
+				<h4>CSS selector:</h4>
+				<p> .intext </p>
+				<h4>Sample code:</h4>
+				<code> &lt; a class="intext" href="in-text-link" &gt; Click Here &lt; /a &gt; </code>
+				<h4>Function:</h4>
+				<p> Creating a link in text by using &lt; a &gt; element linked to another page </p>
+			</div>
+			<div id="shop-now">
+				<h3>Button</h3>
+				<h4>Rendered Elements:</h4>	
+				
+				<a class="submit-button" href="button"> Button </a> 
+			
+				<h4>CSS selector:</h4>
+				<p> .submit-button </p>
+				<h4>Sample code:</h4>
+				<code> &lt; a class="submit-button" href="button" &gt; Button &lt; /a &gt; 
+				</code>
+				<h4>Function:</h4>
+				<p> Creating a button by using &lt; form &gt; & &lt; button &gt; elements to call an action </p>
+			</div>
+		<div id="submit-reset">
+			
+				<h3>Submit & Reset</h3>
+				<h4>Rendered Elements:</h4>		
+				<a class="submit-button" href="button" > Button </a> 
+				
+				<a class="reset-button" href="button" > Reset </a> 
+				
+				<h4>CSS selector:</h4>
+				<p> .submit-button, .reset-button  </p>
+				<h4>Sample code:</h4>
+				
+<code> 
+&lt;  a class="submit-button" href="button" &gt; Button &lt; /a &gt; 
+&lt;  a class="reset-button" href="button" &gt; Reset &lt; /a &gt; 
+
+
+</code>
+				
+				<h4>Function:</h4>
+				<p> Creating buttons by using &lt; form &gt; & &lt; button &gt; elements to call an action </p>
+		</div>
+		<div id="text-input">
+				<h3>Text Input</h3>
+				<h4>Rendered Elements:</h4>	
+				<form action="/">
+					<label>Enter your email: </label>
+					<input class="text-field" type="text">
+				</form>
+				<h4>CSS selector:</h4>
+				<p> .text-field </p>
+				<h4>Sample code:</h4>
+				
+					<code>
+&lt; form action="/" &gt;					
+&lt; label &gt; Enter your email: &lt; /label &gt;
+&lt; input class="text-field" type="text" &gt;
+&lt; /form &gt;
+					</code>
+				
+				<h4>Function:</h4>
+				<p> Creating an input place by using &lt; form &gt; & &lt; label &gt; elements to make an input for users </p>
+			</div>
+			</div>
+		<div id="navigation-bar">
+				<h2>Navigation Bar</h2>
+				<div class="navigation-bar">
+					<h3>Main Navigation</h3>
+					<h4>Rendered Elements:</h4>	
+							<div class="nav-button">
+		<nav>
+		<ul>
+			<li>
+				<a href="Home.html">Home</a> 
+			</li>
+			<li>
+				<a href="UI-Pattern-Elements.html">UI Pattern Elements</a>
+			</li>
+			<li>
+				<a href="Citations.html">Citations</a> 
+			</li>
+			<li>
+				<a href="Wireframes.html">Wireframes</a> 
+			</li>
+		</ul>
+		</nav>
+		</div>
+					<h4>CSS selector:</h4>
+					<p> .nav-button </p>
+					<h4>Sample code:</h4>
+
+					<code>
+&lt; nav &gt;
+	&lt; ul &gt;
+		&lt; li &gt;
+			&lt; a href="Basic-Styles.html">Basic Styles &lt; /a &gt; 
+		&lt; /li &gt;
+		&lt; li &gt;
+			&lt; a href="UI-Pattern-Elements.html">UI Pattern Elements &lt; /a &gt;
+		&lt; /li &gt;
+		&lt; li &gt;
+			&lt; a href="Citations.html">Citations &lt; /a &gt;  
+		&lt; /li &gt;
+		&lt; li &gt; 
+			&lt; a href="Wireframes.html">Wireframes &lt; /a &gt; 
+		&lt; /li &gt;
+		&lt; /ul &gt;
+&lt; /nav &gt;
+					</code>
+					<h4>Function:</h4>
+					<p> Using &lt; nav &gt; to create a space for navigation buttons and using &lt; ul &gt; & &lt; li &gt; to make a list of buttons</p>
+				</div>
+				<div id="grid">
+					<h3>Grid Structure</h3>
+					<h4>Rendered Elements:</h4>	
+					<div class="grid-structure">
+						<div class="top-things">
+							<div class="logo"> Logo </div>
+							<div class="navigation"> Navigation </div>		
+							<div class="CTA">CTA</div>							
+						</div>
+						<div class="body1">
+							
+							<div class="image-infor-1">
+								<div class="image1">Image 1 </div>
+								<div class="infor1">Infor's 1 </div>
+							</div>
+							<div class="title">Title 1</div>
+							<div class="image-infor-2">
+								<div class="image2">Image 2 </div>
+								<div class="infor2">Infor's 2 </div>
+							</div>
+							<div class="image-infor-3">
+								<div class="image3">Image 3 </div>
+								<div class="infor3">Infor's 3 </div>						
+							</div>
+							<div class="title">Title 2</div>
+							<div class="image-infor-4">
+								<div class="image4">Image 4 </div>
+								<div class="image5">Image 5 </div>
+								<div class="image6">Image 6 </div>
+								
+							</div>
+							<div class="title">Infor's 3 images </div>
+							<div class="image-infor-5">
+								<div class="infor4">Infor's 7 </div>
+								<div class="image7">Image 7 </div>												
+							</div>
+						</div>
+						<div class="footer">
+							<p class="contactinfor"> Contact Information </p>					
+						</div>
+					</div>
+				    <h4>CSS selector:</h4>
+					<p> .grid-structure,.top-things,.logo,.navigation,.body1,.CTA,.image-infor-1,.image-infor-2,.image-infor-3,.image-infor-4 </p>
+					<h4>Sample code:</h4>
+					<code>
+					&lt; div class="grid-structure">
+						&lt; div class="top-things">
+							&lt; div class="logo"> Logo &lt; &lt; /div &gt; 
+							&lt; div class="navigation"> Navigation &lt; /div &gt; 						
+						&lt; /div &gt; 
+						&lt; div class="body1">
+							&lt; div class="CTA">CTA &lt; /div &gt; 
+							&lt; div class="image-infor-1">
+								&lt; div class="image1">Image 1 &lt; /div &gt; 
+								&lt; div class="infor1">Infor's 1 &lt; /div &gt; 
+							&lt; /div &gt; 
+							&lt; div class="title">Title 1 &lt; /div &gt; 
+							&lt; div class="image-infor-2">
+								&lt; div class="image2">Image 2 &lt; /div &gt; 
+								&lt; div class="infor2">Infor's 2 &lt; /div &gt; 
+							&lt; /div &gt; 
+							&lt; div class="image-infor-3">
+								&lt; div class="image3">Image 3 &lt; /div &gt; 
+								&lt; div class="infor3">Infor's 3 &lt; /div &gt; 						
+							&lt; /div &gt; 
+							&lt; div class="title">Title 2 &lt; /div &gt;
+							&lt; div class="image-infor-4">
+								&lt; div class="image4">Image 4 &lt; /div &gt; 
+								&lt; div class="image5">Image 5 &lt; /div &gt; 
+								&lt; div class="image6">Image 6 &lt; /div &gt; 
+								
+							&lt; /div &gt; 
+							&lt; div  class="title">Infor's 3 images &lt; /div &gt; 
+							&lt; div  class="image-infor-5">
+								&lt; div  class="infor4">Infor's 7 &lt; /div &gt; 
+								&lt; div  class="image7">Image 7 &lt; /div &gt; 												
+							&lt; /div &gt; 
+						&lt; /div &gt; 
+						&lt; div  class="footer">
+							&lt; p class="contactinfor"> Contact Information &lt; /p &gt;				
+						&lt; /div &gt; 
+					&lt; /div &gt; 
+					</code>
+					<h4>Function:</h4>
+					<p> Creating grids for the page by dividing sections and organizing them in a proper order </p>
+				</div>
+				
+				<div id="product-introduction">
+					<h3>Product Introduction</h3>
+					<h4>Rendered Elements:</h4>	
+					<div class="container">
+					<div id="item-details">
+					
+					<div class="all">
+
+					<img  src="img/yaypant.png" alt="A Black Pant" width="400" class="image10">
+					
+					<br> <a class="shipping" href="add-to-bag"> Shipping and Return </a>
+					<br> <a class="shipping" href="continue-to-checkout"> Gift Wrapping </a>
+					</div>
+					
+					</div>
+					<div id="item-image">
+					<p class="center"> Yay Pant &mid; $1200 </p>
+					<p>Style ‎649246 ZL7A1 1042</p>
+					<p>
+					<p class="para-align">This windbreaker is part of The North Face x Gucci collection, a collaboration connecting two brands with similar history and values.</p> 
+					<p class="align">
+					<br> Unlined
+					<br> Hood with visor flap and drawstrings
+					<br> Strapped cuffs
+					<br> Metal button bosom
+					<br> 96% Polyamide, 4% Elastane
+					<br> Made in Vietnam </p>
+					<label for="sizes">Size: </label>
+					<select name="sizes" id="sizes">
+						<option value="small">S</option>
+						<option value="medium">M</option>
+						<option value="large">L</option>
+					</select>
+					<a class="intext" href="size-guide"> Size Guide </a>
+					<br> <a class="intext" href="find-in-store"> Find in Store </a>
+					<div class="all">
+					<br> <a class="nav-button-addtobag" href="add-to-bag"> Add To Bag </a>
+					<br> <a class="nav-button-checkout" href="continue-to-checkout"> Continue To Checkout </a>
+					</div>
+					</div>
+					</div>
+					<h4>CSS selector:</h4>
+					<p> #product-introduction,.para-align,.center,.align,.shipping </p>
+					<h4>Sample code:</h4>
+					
+						<code>
+&lt; h3 &gt; Yay Pant &mid; $1200 &lt; /h3 &gt;						
+&lt; img src="img/yaypant.png" alt="A Black Pant" width="400" &gt;
+&lt; p &gt; This windbreaker is part of The North Face x Gucci collection, a collaboration connecting two brands with similar history and values. 
+&lt; br &gt; Unlined
+&lt; br &gt; Hood with visor flap and drawstrings
+&lt; br &gt; Strapped cuffs
+&lt; br &gt; Metal button bosom
+&lt; br &gt; 96% Polyamide, 4% Elastane
+&lt; br &gt; Made in Vietnam &lt; /p &gt;
+&lt; label for="sizes" &gt; Size: &lt; /label &gt;
+&lt; select name="sizes" id="sizes" &gt;
+	&lt; option value="small" &gt; S &lt; /option &gt;
+	&lt; option value="medium" &gt; M &lt; /option &gt;
+	&lt; option value="large" &gt; L &lt; /option &gt;
+&lt; /select &gt;
+&lt; a id="size-guide" href="size-guide" &gt; Size Guide &lt; /a &gt;
+&lt; br &gt; &lt; a id="find-in-store" href="find-in-store" &gt; Find in Store &lt; /a &gt;
+&lt; br &gt; &lt; a id="add-to-bag" href="add-to-bag" &gt; Add To Bag &lt; /a &gt;
+&lt; br &gt; &lt; a id="continue-to-checkout" href="continue-to-checkout" &gt; Continue To Checkout &lt; /a &gt;
+						</code>
+					
+					<h4>Function:</h4>
+					<p> This is the form of showing product's details </p>
+				</div>
+			</div>
+		<div id="color-swatches">
+				<h2>Color Swatches</h2>
+				<section id="color">
+				<h4>Rendered Elements:</h4>	
+				<div id="colors">
+				<div id="#c6c6c6">
+				<h4>Background</h4>
+				<figure>
+					<img src="img/1.png" alt="#c6c6c6" width="125" height="125" >
+					<figcaption> #c6c6c6 </figcaption>
+				</figure>
+				</div>
+				
+				<div id="#313536">
+				<h4>Top Banner</h4>
+				<figure>
+					<img src="img/2.png" alt="#313536" width="125" height="125" >
+					<figcaption> #313536 </figcaption>
+				</figure>
+				</div>
+				
+				<div id="#f7ee8c">
+				<h4>Images</h4>
+				<figure>
+					<img src="img/3.png" alt="#f7ee8c" width="125" height="125" >
+					<figcaption> #f7ee8c </figcaption>
+				</figure>
+				</div>
+				
+				<div id="#005260">
+				<h4>Images</h4>
+				<figure>
+					<img src="img/4.png" alt="#005260" width="125" height="125" >
+					<figcaption> #005260 </figcaption>
+				</figure>
+				</div>
+				<div id="#304246">
+				<h4>Links</h4>
+				<figure>
+					<img src="img/5.png" alt="#304246" width="125" height="125" >
+					<figcaption> #304246 </figcaption>
+				</figure>
+				</div>
+				</div>
+				<h4>CSS selector:</h4>
+				<p> #colors,#c6c6c6,#313536,#f7ee8c </p>
+				<h4>Sample code:</h4>
+				
+					<code>
+&lt; figure &gt;					
+&lt; img src="img/1.jpg" alt="#E1D5CB" width="125" height="125" &gt; 
+&lt; figcaption &gt; #E1D5CB &lt; /figcaption &gt;
+&lt; /figure &gt;
+					</code>
+				
+				<h4>Function:</h4>
+				<p> Using figure to store image and its caption in a right order </p>
+				</section>
+			</div>	
+	</div>		
+	</body>
+</html>
