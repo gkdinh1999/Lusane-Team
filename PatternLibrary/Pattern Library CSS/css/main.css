@@ -1,0 +1,171 @@
+body{ /*reference in lecture's tutorial*/
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #E5E5E5;
+}
+div{
+	padding:1em;
+	border:1px solid black;
+}
+
+.nav-button nav{ /*reference in lecture's tutorial*/
+	display:block;
+	padding:0rem;
+	
+}
+.nav-button a{
+	color:white;
+	text-decoration:none;
+}
+.nav-button a:hover, .nav-button a:focus{
+	color:#D4D4D4;
+	
+}
+
+.nav-button ul{	
+
+	list-style-type:none;	
+	margin:0;
+	padding:0;
+	display:block;
+
+}
+.nav-button li{
+	display: inline-block;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    background-color: #1E1E20;
+	
+}
+
+.nav-button li:hover{
+	background-color: #818181;
+}
+p{
+	width: clamp(45ch, 70%, 75ch);
+}
+code{
+	width: clamp(45ch, 70%, 75ch);
+}
+.submit-button{
+	display:inline-block;
+	color: white;
+	background-color: #1E1E20;
+	font-size: 1.25rem;
+	text-decoration: none;
+	padding:0.5em 1em 0.5em 1em;
+	border:none;
+}
+.submit-button:hover, .submit-button:focus{
+	background-color: #464648;
+	color:white;
+}
+.reset-button{
+	border: 3px solid white;
+	display:inline-block;
+	color: white;
+	background-color: #1E1E20;
+	font-size: 1.25rem;
+	text-decoration: none;
+	padding:0.4em 1em 0.4em 1em;
+	
+}
+.reset-button:hover, .reset-button:focus{
+	background-color: #464648;
+	color:white;
+	stroke:white;
+}
+.intext{
+	color:#1E1E20;
+	font-style:italic;
+}
+.intext:hover, .intext:focus{	
+	color: #B1B1B1;
+}
+h2{
+	color: #D27B3D;
+}
+p{
+	font-size:100%;
+}
+
+.nav-button-checkout {
+	display: inline-block;
+    margin: 0 0 0em 0 ;
+    padding: 1em 1em 1em 1em;
+    background-color: #464648;
+	text-decoration: none;
+	text-align:center;
+	color:#FFFFFF;
+}
+.nav-button-checkout:hover{
+	background-color: #464648;
+	text-decoration: none;
+}
+.nav-button-addtobag {
+	text-decoration: none;
+	text-align:center;
+	display: inline-block;
+    margin: 0 0 0em 0 ;
+    padding: 1em 1em 1em 1em;
+    background-color: #1E1E20;
+
+	color:#FFFFFF;
+}
+.nav-button-addtobag:hover{
+	background-color: #464648;
+	text-decoration: none;
+}
+
+.item{
+	line-height:180%;
+	text-align:center;
+	border: none;
+}
+.right{
+	line-height:180%;
+	text-align:right;
+	border: none;
+}
+.align,.left{
+	line-height:180%;
+	border: none;
+}
+.background-color{
+
+}
+.center{
+	width:435.75px;
+	padding:0em 0em 1em 0em;
+	text-align: center;
+	border-bottom:1px solid black;
+}
+#item-image{
+	padding: 0em 25% 0em 25%;
+	border: none;
+}
+#item-details{
+	padding: 0em 25% 0em 25%;
+	border: none;
+}
+.all{
+	 border: none;
+}
+.shipping{
+	text-decoration: none;
+	text-align:center;
+	display: inline-block;
+    margin: 0 0 0em 0 ;
+    padding: 1em 1em 1em 1em;
+    border:1px solid black;
+
+	color:#000000;
+}
+.para-align{
+	width: clamp(40ch, 70%, 50ch);
+}
+#shopping-detail,#total,.no-border, #product-introduction {
+	border:none;
+}
+.title3{
+	font-size:1.2rem;
+}
