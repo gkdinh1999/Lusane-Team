@@ -29,7 +29,7 @@
 
 
 }
-#site-map,#desktop-mockup,#mobile-mockup,#desktop,#mobile{
+#site-map,#desktop-mockup,#mobile-mockup,#desktop,#mobile,.footer-distributed{
 	grid-column:1/9;
 	
 }
@@ -101,7 +101,7 @@
 	grid-column:1/9;
 	height:326px;
 }
-#text-styling,#check-out,#interactive-elements,#navigation-bar,#color-swatches,.conventions{
+#text-styling,#check-out,#interactive-elements,#navigation-bar,#color-swatches,.conventions,.hero-image{
 	grid-column:1/9;
 }
 #shopping-detail {
