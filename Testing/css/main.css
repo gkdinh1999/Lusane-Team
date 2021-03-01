@@ -1,0 +1,77 @@
+/*import google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Didact+Gothic&display=swap');
+
+
+body, html {
+    height: 100%;
+    font-size: 16px;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+h2 {
+	font-size: 1rem;
+}
+
+/*main navigation, alignment needs fixing with grid*/
+.main-nav-button a{
+	background-position: center;
+	position: relative;
+	transition-duration: 0.3s;
+	display: inline-block;
+	color: rgb(180, 180, 180);
+	font-size: 0.7rem;
+	text-decoration: none;
+	padding: 0.8em 0.8em;
+	margin: 1em;
+	font-family: Didact Gothic, sans-serif;
+	left: 25%;
+
+}
+
+.main-nav-button a:hover, .main-nav-button a:focus{
+	color: white;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/CTA.png");
+
+  /* Set a specific height */
+  height: 60%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-content {
+  text-align: center;
+  font-family: Bodoni Moda, serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(230, 230, 230);
+  margin: 0.625rem;
+}
+
+.hero-button {
+	transition-duration: 0.3s;
+	font-size: 0.7rem;
+	background-color: rgb(23, 23, 23);
+	color: rgb(200, 200, 200);
+	padding: 0.6em 0.8em;
+	margin: 0.7em;
+	font-family: Didact Gothic, sans-serif;
+}
+.hero-button:hover {
+	background-color: rgb(89, 89, 89);
+	color: white;
+}
