@@ -88,30 +88,21 @@ footer{
 
 /*back to top button*/
 .backtotop-button {
+	display: block;
 	width: 100%;
+	border: none;
 	transition-duration: 0.3s;
 	font-size: 0.7rem;
 	color: rgb(200, 200, 200);
+	background-color: rgb(40, 40, 40);
 	text-decoration: none;
 	font-family: Didact Gothic, sans-serif;
 	text-align: center;
-	padding: 0.5rem;
-
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
 }
 .backtotop-button:hover {
 	color: white;
-}
-
-.footer-backtotop {
-	width: 100%;
-	text-align: center;
-	box-sizing: border-box;
-	background-color: rgb(40, 40, 40);
-	padding:0.5em;
-}
-
-.footer-backtotop:hover {
-	transition-duration: 0.3s;
 	background-color: rgb(55, 55, 55);
 }
 /*backtotop ends*/
