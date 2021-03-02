@@ -82,9 +82,41 @@ h2 {
 /*footer CSS section testing*/
 
 footer{
-	position: fixed;
+	position: static;
 	bottom: 0;
 }
+
+/*back to top button*/
+.backtotop-button {
+	width: 100%;
+	transition-duration: 0.3s;
+	font-size: 0.7rem;
+	color: rgb(200, 200, 200);
+	text-decoration: none;
+	font-family: Didact Gothic, sans-serif;
+	text-align: center;
+	padding: 0.5rem;
+
+}
+.backtotop-button:hover {
+	color: white;
+}
+
+.footer-backtotop {
+	width: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	background-color: rgb(40, 40, 40);
+	padding:0.5em;
+}
+
+.footer-backtotop:hover {
+	transition-duration: 0.3s;
+	background-color: rgb(55, 55, 55);
+}
+/*backtotop ends*/
+
+/*footer info section*/
 .footer-distributed{
 	background-color: rgb(25, 25, 25);
 	box-sizing: border-box;
@@ -98,11 +130,10 @@ footer{
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
 .footer-distributed .footer-right,
-.footer-distributed .footer-store-info{
+.footer-distributed .footer-store-info {
 	display: inline-block;
 	vertical-align: top;
 }
-
  
 .footer-distributed .footer-left{
 	width: 20%;
@@ -118,7 +149,7 @@ footer{
 }
 
 /*need to change to a and a hover after */
-.footer-distributed p{
+.footer-distributed a, .footer-distributed p{
 	font-size: 0.7rem;
 	font-family: Didact Gothic, sans-serif;
 	color: rgb(210, 210, 210);
@@ -197,3 +228,7 @@ input[type=submit]:hover, :focus {
 	margin-bottom: 40px;
 	text-align: center;
 }
+
+
+
+
