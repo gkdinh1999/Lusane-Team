@@ -1,0 +1,142 @@
+*{
+	box-sizing:border-box;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns:repeat(12, 1fr);
+	grid-column-gap: 0.25rem;
+	min-height: 25vh;
+	background-color:white;
+}
+header{
+	margin:auto;
+	grid-column:1/13;
+
+	
+}
+/*For Homepage */
+.first-image-hp{
+	grid-column:3/11;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height:682px;
+}
+
+
+.second-image-hp{
+	grid-column:3/11;
+	display: grid;
+	grid-template-columns: 1fr;
+	
+}
+.block-1-hp{
+	grid-template-columns: 1fr 1fr;	
+	display: grid;
+	height:594px;
+}
+
+.third-image-hp{
+	grid-column:1/13;
+	display: grid;
+	grid-template-columns: 1fr ;
+}
+.block-2-hp{
+	grid-template-columns: 1fr 1fr 1fr;	
+	display: grid;
+	height:688px;
+}
+.fourth-image-hp{
+	grid-column:2/12;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	height:769px;
+}
+/*For Category page */
+.filter-bar{
+		grid-column:1/13;
+	display: grid;
+	grid-template-columns: ;
+}
+.block-1-cate{
+	grid-column:2/12;
+	grid-template-columns: 1fr 1fr 1fr 1fr;	
+	display: grid;
+	height:465px;
+}
+.man-shirt{
+	grid-column:0/2;
+	grid-template-columns: 1fr 1fr ;	
+	display: grid;
+
+}
+.sort-by{
+	grid-column:11/13;
+	grid-template-columns: 1fr 1fr 1fr ;	
+	display: grid;
+
+}
+/* For Product detail */
+.main-thing{
+	grid-column:3/11;
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	
+}
+.image-pro-1{
+	height:776px;
+}
+.infor-pro{
+	height:694px;
+}
+.style-it{
+	grid-column:1/13;
+	display: grid;
+	grid-template-columns:  1fr ;
+}
+.block-1-pro{
+	grid-column:1/12;
+	grid-template-columns: 1fr 1fr 1fr 1fr;	
+	display: grid;
+	height:465px;
+}
+/* For client services */
+.image-services{
+	grid-column:1/13;
+	height:165px;
+}
+.menu-services{
+	grid-column:3/11;
+	grid-template-columns: 20% 80%;	
+	display: grid;
+}
+/* For Bag */
+.text-ontop-bag{
+	grid-column:1/13;
+}
+.image-text-bag{
+	grid-column:3/7;
+}
+.infor-for-bag{
+	grid-column:7/11;
+}
+.image-1-bag{
+	height:465px;
+}
+.section-for-infor-bag{
+	height:338px;
+}
+.image-with-text-bag{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+}
+/*For footer */
+.footer{
+	grid-column:1/13;
+}
+.footer-distributed{
+
+	grid-column:1/13;
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr ;
+}
