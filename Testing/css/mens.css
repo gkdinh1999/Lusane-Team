@@ -1,0 +1,38 @@
+.mens-collab {
+  position: relative;
+  height: 70vh;
+  width: 56vh;
+  background-size: cover;
+  background-image: url("img/mens-collab-santoni.png");
+}
+
+.mens-content {
+  color: rgb(230, 230, 230);
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mens-button {
+  top: 80%;
+  transition-duration: 0.3s;
+  font-size: 0.9rem;
+  background-color: rgb(23, 23, 23);
+  color: rgb(200, 200, 200);
+  padding: 0.8em 0.8em;
+  font-family: Didact Gothic, sans-serif;
+  text-decoration: none;
+}
+.mens-button:hover {
+  background-color: rgb(89, 89, 89);
+  color: white;
+}
+
+.mens-para {
+  width: 
+}
+
+
+

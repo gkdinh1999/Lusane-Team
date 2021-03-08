@@ -15,21 +15,20 @@ h2 {
 	font-size: 1rem;
 }
 
-/*main navigation, alignment needs fixing with grid*/
-.main-nav-button a{
-	background-position: center;
-	position: relative;
-	transition-duration: 0.3s;
-	display: inline-block;
-	color: rgb(180, 180, 180);
-	font-size: 0.7rem;
-	text-decoration: none;
-	padding: 0.8em 0.8em;
-	margin: 1em;
-	font-family: Didact Gothic, sans-serif;
-	left: 25%;
-
+/*sub title for mens section*/
+h3 {
+	font-family: Bodoni Moda;
+	font-size: 1.6rem;
+	letter-spacing: 0.12rem;
+	margin-bottom: 3rem;
 }
+
+/*mens section*/
+p {
+	font-family: Didact Gothic, sans-serif;
+	font-size: 1rem;
+}
+
 
 .main-nav-button a:hover, .main-nav-button a:focus{
 	color: white;
@@ -70,6 +69,7 @@ h2 {
 	padding: 0.8em 0.8em;
 	margin: 0.7em;
 	font-family: Didact Gothic, sans-serif;
+	text-decoration: none;
 }
 .hero-button:hover {
 	background-color: rgb(89, 89, 89);

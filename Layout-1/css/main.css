@@ -1,22 +1,223 @@
-body{ /*reference in lecture's tutorial*/
-	font-family: Helvetica, Arial, sans-serif;
-	background-color: #FFFFFF;
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Didact+Gothic&display=swap');
+/*import fonts*/
+
+body, html {
+    height: 100%;
+    font-size: 16px;
 }
+
 h2{
 	font-size:1rem;
 }
+
+h3 {
+	font-family: Bodoni Moda;
+	font-size: 1.6rem;
+	letter-spacing: 0.12rem;
+	margin-bottom: 3rem;
+}
+
 .centered{
 	text-align:center;
 }
+
 div{
-	padding:1em;
 	border:1px solid black;
 }
-.ctaimage{
-	width:1440px;;
-	height:730px;
+
+
+/*hero banner for all pages*/
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/CTA.png");
+
+  /* Set a specific height */
+  height: 60%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-@media screen and (max-width:58em){
-	
+/* Place text in the middle of the image */
+.hero-content {
+  text-align: center;
+  font-family: Bodoni Moda, serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(230, 230, 230);
+  margin: 0.625rem;
 }
+
+.hero-button {
+	transition-duration: 0.3s;
+	font-size: 0.7rem;
+	background-color: rgb(23, 23, 23);
+	color: rgb(200, 200, 200);
+	padding: 0.8em 0.8em;
+	margin: 0.7em;
+	font-family: Didact Gothic, sans-serif;
+	text-decoration: none;
+}
+.hero-button:hover {
+	background-color: rgb(89, 89, 89);
+	color: white;
+}
+/*hero end*/
+
+
+
+/*footer for all pages*/
+footer{
+	position: static;
+	bottom: 0;
+}
+
+/*back to top button*/
+.backtotop-button {
+	display: block;
+	width: 100%;
+	border: none;
+	transition-duration: 0.3s;
+	font-size: 0.7rem;
+	color: rgb(200, 200, 200);
+	background-color: rgb(40, 40, 40);
+	text-decoration: none;
+	font-family: Didact Gothic, sans-serif;
+	text-align: center;
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
+}
+.backtotop-button:hover {
+	color: white;
+	background-color: rgb(55, 55, 55);
+}
+/*backtotop ends*/
+
+/*footer info section*/
+.footer-distributed{
+	background-color: rgb(25, 25, 25);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	padding: 3em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right,
+.footer-distributed .footer-store-info {
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+	width: 20%;
+}
+ 
+.footer-distributed h3{
+	color: rgb(150, 150, 150);
+	font-size: 0.8rem;
+	font-family: Didact Gothic, sans-serif;
+	margin: 0.2rem;
+	margin-bottom: 1rem;
+	letter-spacing: 0.1rem;
+}
+
+/*need to change to a and a hover after */
+.footer-distributed a, .footer-distributed p{
+	font-size: 0.7rem;
+	transition-duration: 0.3s;
+	font-family: Didact Gothic, sans-serif;
+	color: rgb(180, 180, 180);
+	margin: 0.3rem;
+	text-decoration: none;
+	
+} 
+
+.footer-distributed a:hover, .footer-distributed a:focus{
+	color: white;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 0.7rem;
+	margin: 0.2rem;
+	margin-top: 0.5rem;
+}
+ 
+.footer-distributed .footer-center{
+	width: 20%;
+}
+ 
+.footer-distributed .footer-right{
+	width: 20%;
+}
+ 
+.footer-distributed .footer-store-info {
+	width: 35%;
+}
+
+/*form submit section*/
+input[type=text], select, textarea {
+	width: 35%;
+	padding: 0.2rem;
+	margin-left: 0.2rem;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+	font-family: Didact Gothic, sans-serif;
+	font-size: 0.7rem;
+	letter-spacing: 0.1rem;
+	background-color: rgb(180, 180, 180);
+	border: none;
+}
+
+input[type=submit] {
+	margin: 0.1rem;
+	font-family: Didact Gothic, sans-serif;
+	font-size: 0.8rem;
+	background-color: rgb(40, 40, 40);
+	color: rgb(200, 200, 200);
+	border: none;
+	padding-right: 0.7rem;
+	padding-left: 0.7rem;
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+}
+
+input[type=submit]:hover, :focus {
+	background-color: rgb(60, 60, 60);
+}
+
+.footer-distributed .footer-links {
+	color:  #8f9296;
+	font-size: 0.7rem;
+	margin: 0.2rem;
+	margin-top: 0.2rem;
+}
+ 
+@media (max-width: 880px) {
+	.footer-distributed{
+		font-family: Didact Gothic, sans-serif;	
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right,
+.footer-distributed .footer-store-info{
+	display: block;
+	width: 100%;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+
+
+
+
