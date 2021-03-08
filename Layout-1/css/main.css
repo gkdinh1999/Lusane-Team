@@ -5,7 +5,16 @@ body, html {
     height: 100%;
     font-size: 16px;
 }
-
+a{
+	text-decoration:none;
+	display: inline-block;
+}
+@media screen and (max-width: 60em) {
+	a{
+		text-decoration:none;
+		display: block;
+	}
+}
 h2{
 	font-size:1rem;
 }
