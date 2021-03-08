@@ -83,6 +83,13 @@
 	display: grid;
 
 }
+
+@media screen and (max-width: 60em) {
+	.block-1-cate{
+		grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+	}
+}
+
 /* For Product detail */
 .main-thing{
 	grid-column:3/11;
@@ -107,6 +114,15 @@
 	display: grid;
 	height:465px;
 }
+
+
+@media screen and (max-width: 60em) {
+	.block-1-pro, .main-thing{
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	}
+}
+
+
 /* For client services */
 .image-services{
 	grid-column:1/13;
@@ -117,6 +133,9 @@
 	grid-template-columns: 20% 80%;	
 	display: grid;
 }
+
+
+
 /* For Bag */
 .text-ontop-bag{
 	grid-column:1/13;
@@ -137,6 +156,14 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr ;
 }
+
+@media screen and (max-width: 60em) {
+	.image-with-text-bag, .image-text-bag, .infor-for-bag{
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	}
+}
+
+
 /* For men */
 .first-image-men,.second-image-men{
 	grid-column:2/12;
