@@ -5,9 +5,48 @@ body, html {
     height: 100%;
     font-size: 16px;
 }
+option{
+	
+	color:white;
+}
+.moved{
+	padding:2rem;
+}
+
+header{
+	padding-top:1rem;
+	padding-bottom:1rem;
+	background-color:#1E1E20;
+	color:white;
+}
+.allbutton1{
+	padding:1em;
+	
+}
+.allbutton{
+	padding:1em;
+	border:1px solid black;
+}
+.intext{
+	font-weight:bold;
+	font-style:italic;
+}
+.brand{
+	font-family: Bodoni Moda;
+	font-size:2rem;
+	font-weight:lighter;
+}
+.whitecolor{
+	color:white;
+}
 a{
+	font-weight:lighter;
+	color:black;
 	text-decoration:none;
 	display: inline-block;
+}
+nav a{
+	  width: 7%; 
 }
 @media screen and (max-width: 60em) {
 	a{
@@ -17,6 +56,10 @@ a{
 }
 h2{
 	font-size:1rem;
+	
+}
+.centered,p,.changedfont{
+	font-family: Didact Gothic, sans-serif;
 }
 
 h3 {
@@ -30,9 +73,7 @@ h3 {
 	text-align:center;
 }
 
-div{
-	border:1px solid black;
-}
+
 
 
 /*hero banner for all pages*/

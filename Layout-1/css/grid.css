@@ -1,7 +1,9 @@
 *{
 	box-sizing:border-box;
 }
-
+.backtotop-button{
+	margin-top:4rem;
+}
 .grid-container {
 	display: grid;
 	grid-template-columns:repeat(12, 1fr);
@@ -61,15 +63,16 @@
 
 /*For Category page */
 .filter-bar{
-		grid-column:1/13;
-	display: grid;
-	grid-template-columns: ;
+	padding-top:1rem;
+	grid-column:1/13;
+	display: grid;	
 }
 .block-1-cate{
+	padding-top:2rem;
 	grid-column:2/12;
 	grid-template-columns: 1fr 1fr 1fr 1fr;	
 	display: grid;
-	height:465px;
+
 }
 .man-shirt{
 	grid-column:0/2;
@@ -95,13 +98,24 @@
 	grid-column:3/11;
 	display: grid;
 	grid-template-columns: 1fr 1fr ;
+	padding-top:4rem;
+}
+.infor-pro{
+	padding-left:4rem;
+	padding-right:4rem;
 	
 }
 .image-pro-1{
-	height:776px;
+	margin:auto;
 }
-.infor-pro{
-	height:694px;
+.images-and-shipping{
+	width:548px;
+}
+.styleit{
+	padding:2rem;
+}
+.infor-and-buttons{
+	
 }
 .style-it{
 	grid-column:1/13;
@@ -112,12 +126,14 @@
 	grid-column:1/12;
 	grid-template-columns: 1fr 1fr 1fr 1fr;	
 	display: grid;
-	height:465px;
+
+	margin:auto;
+	column-gap: 4rem;	
 }
 
 
 @media screen and (max-width: 60em) {
-	.block-1-pro, .main-thing{
+	.block-1-pro, .main-thing,.infor-and-buttons{
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	}
 }
@@ -126,17 +142,45 @@
 /* For client services */
 .image-services{
 	grid-column:1/13;
-	height:165px;
+	margin:auto;
+	position:relative;
+	
+
 }
+.clientservices{
+	position:absolute;
+	left:45%;
+	top:20%;
+	color:white;
+	font-weight:lighter;
+	font-size:2rem;
+}
+
 .menu-services{
+	padding-top:2rem;
+	padding-bottom:8rem;
 	grid-column:3/11;
 	grid-template-columns: 20% 80%;	
 	display: grid;
+	column-gap:1rem;
 }
 @media screen and (max-width: 60em) {
 	.menu-services{
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	}
+	.clientservices{
+	position:absolute;
+	left:18%;
+	top:20%;
+	color:white;
+	font-weight:lighter;
+	font-size:2rem;
+}
+	.image-services{
+	grid-column:1/13;
+	margin:auto;
+	position:relative;
+}
 }
 
 
@@ -152,9 +196,32 @@
 }
 .image-1-bag{
 	height:465px;
+	margin:auto;
 }
-.section-for-infor-bag{
-	height:338px;
+.colored{
+	background-color:#E7E7E7;
+}
+.colored1{
+	background-color:#1E1E20;	
+}
+.nav-button-checkout,.nav-button-shopping{
+	color:#F1F1F1;
+}
+.colored2{
+	background-color:#414143;
+	
+}
+.all{
+	text-align:center;
+	display: grid;
+	grid-template-columns: 1fr ;
+}
+#total{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+}
+.right{
+	text-align:right;
 }
 .image-with-text-bag{
 	display: grid;
