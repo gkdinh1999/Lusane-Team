@@ -263,7 +263,7 @@ h3 {
 	margin-left: 10rem;
 }
 
-/*CATEGORY SECTION START*/
+/*HP CATEGORY SECTION START*/
 
 .second-image-men h3 {
 	text-align: center;
@@ -291,6 +291,46 @@ h3 {
 
 
 /*MENS PAGE ENDS*/
+
+
+
+
+
+/*ABOUT HISTORY PAGE START*/
+.image-1-story, .image-2-story,
+.image-3-story, .image-4-story,
+.image-5-story {
+	position: relative;
+	text-align: center;
+}
+
+.story-h3{
+	font-size: 8rem;
+	color: rgb(230, 230, 230);
+	margin-bottom: 1rem;
+}
+
+.image-1-story img, .image-2-story img,
+.image-3-story img, .image-4-story img,
+.image-5-story img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: auto;
+	filter: brightness(35%);
+}
+
+.image-1-content, .image-2-content,
+.image-3-content, .image-4-content,
+.image-5-content{
+  position: absolute;
+  color: rgb(230, 230, 230);
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 /*hero banner for all pages*/
 .hero-image {

@@ -346,10 +346,9 @@
 	grid-column:1/13;
 	display: grid;
 	grid-template-columns: 1fr  ;
+	margin-top: 3rem;
 }
-.image-1-story{
-	height:565px;
-}
+
 .arrow {
   border: solid black;
   border-width: 0 3px 3px 0;
