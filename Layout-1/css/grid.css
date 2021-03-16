@@ -12,10 +12,6 @@
 	background-color:white;
 }
 
-/*header{
-	margin:auto;
-	grid-column:1/13;
-}*/
 
 /*For Homepage */
 .first-image-hp{
@@ -52,9 +48,9 @@
 	padding-bottom: 2rem;
 }
 
-@media screen and (max-width: 60em) {
+@media screen and (max-width: 80em) {
 	.block-1-hp{
-		grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+		grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
 	}
 }
 
@@ -248,27 +244,37 @@
 
 /* For men */
 .first-image-men,.second-image-men{
-	grid-column:2/12;
+	grid-column:3/11;
 	display: grid;
+	margin-top: 4rem;
 	grid-template-columns: 1fr ;
 }
+
 .block-1-men{
 	display: grid;
 	grid-template-columns: 1fr 1fr ;
 }
-.image-1-men{
-	height:843px;
-}
-.image-2-men{
-	height:843px;
-}
-.category{
-	height:706px;
+
+.block-2-men{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-bottom: 0.1rem;
+	margin-top: 0.1rem;
 }
 
-@media screen and (max-width: 60em) {
-	.block-1-men {
+@media screen and (max-width: 70em) {
+	.block-1-men, .block-2-men {
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	}
+
+	.image-1-men, .image-2-men {
+		margin: auto;
+	}
+
+	.just-text-men-1, .just-text-men-2 {
+		margin: auto;
+		width: 50%;
+		text-align: center;
 	}
 }
 

@@ -136,7 +136,7 @@ h3 {
 /*HP ATLAS WORLD*/
 .second-image-hp {
 	text-align: center;
-	margin-top: 4rem;
+	margin-top: 2rem;
 	margin-bottom: 4rem;
 	width: 100%;
 }
@@ -212,7 +212,7 @@ h3 {
 }
 
 
-/*HP new collection section*/
+/*HP CATALOGUE SECTION*/
 .fourth-image-hp {
 	position: relative;
 	text-align: center;
@@ -242,6 +242,55 @@ h3 {
 	transform: translate(-50%, -50%);
 }
 
+/*HOME PAGE CSS ENDS*/
+
+/*MENS PAGE START*/
+
+.just-text-men-1 {
+	width: 11em;
+	margin-top: 5rem;
+	margin-left: 2.5rem;
+}
+.mens-button-margin {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.just-text-men-2 {
+	text-align: right;
+	width: 11em;
+	margin-top: 10rem;
+	margin-left: 10rem;
+}
+
+/*CATEGORY SECTION START*/
+
+.second-image-men h3 {
+	text-align: center;
+}
+
+.category-1, .category-2, .category-3, .category-4{
+	position: relative;
+	display: block;
+	margin: auto;
+	height: auto;
+}
+
+.category-h3 {
+	margin-bottom: 1rem;
+}
+
+.category-1-btn, .category-2-btn, .category-3-btn, .category-4-btn{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+}
+
+
+/*MENS PAGE ENDS*/
 
 /*hero banner for all pages*/
 .hero-image {
