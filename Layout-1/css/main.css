@@ -331,6 +331,18 @@ h3 {
   transform: translate(-50%, -50%);
 }
 
+/*ABOUT US PAGE ENDS*/
+
+
+/*NEW COLLECTION FASHION SHOW PAGE START*/
+.image-1-newcol h3, .image-1-newcol p{
+	font-weight: lighter;
+	text-align: center;
+}
+
+
+
+
 
 /*hero banner for all pages*/
 .hero-image {

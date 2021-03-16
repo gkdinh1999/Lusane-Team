@@ -69,7 +69,7 @@
 }
 .man-shirt{
 	grid-column:0/2;
-	grid-template-columns: 1fr 1fr ;	
+	grid-template-columns: 1fr 1fr;	
 	display: grid;
 
 }
@@ -280,12 +280,12 @@
 
 /* For new collection */
 .image-1-newcol{
-	grid-column:4/10;
+	grid-column:3/11;
 	display: grid;
 	grid-template-columns: 1fr ;
 }
 .image-234-newcol{
-	grid-column:3/11;
+	grid-column:1/13;
 	display: grid;
 	grid-template-columns: 1fr   ;
 }
@@ -315,24 +315,12 @@
 	display: grid;	
 }
 .block-3-newcol{
-	grid-template-columns: 20% 60% 20% ;
+	grid-template-columns: 1/13;
 	display: grid;	
 }
 .block-4-newcol{
-	grid-template-columns: 30% 25% 45% ;
+	grid-template-columns: 1/13;
 	display: grid;	
-}
-.image-2-newcol{
-	height:693px;
-}
-.image-5-newcol{
-	height:480px;
-}
-.image-8-newcol{
-	height:513px;
-}
-.image-11-newcol{
-	height:688px;
 }
 
 @media screen and (max-width: 60em) {
