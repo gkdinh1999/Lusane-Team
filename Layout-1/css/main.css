@@ -30,6 +30,7 @@ header{
 .intext{
 	font-weight:bold;
 	font-style:italic;
+	text-decoration:none;
 }
 .brand{
 	font-family: Bodoni Moda;
