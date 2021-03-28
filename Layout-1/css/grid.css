@@ -390,9 +390,15 @@ img{
 }
 
 @media screen and (max-width: 60em) {
-/*	.image-1-newcol, .image-2-newcol, .image-3-newcol{
-		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	}*/
+	.image-1-colcon p, .image-2-colcon p,
+	.image-3-colcon p{
+		font-size: 0.8rem;
+	}
+	.image-1-colcon h3, .image-2-colcon h3,
+	.image-3-colcon h3{
+		font-size: 1.2rem;
+		margin-bottom: 0.2rem;
+	}
 }
 
 /*For Story page */
