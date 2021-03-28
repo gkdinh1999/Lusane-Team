@@ -5,14 +5,16 @@ body, html {
     height: 100%;
     font-size: 16px;
 }
-option{
-	
+option{	
 	color:white;
 }
 .moved{
 	padding:2rem;
 }
-
+img{
+	width:100%;
+	height:auto;
+}
 header{
 	padding-top:1rem;
 	padding-bottom:1rem;
@@ -31,6 +33,11 @@ header{
 	font-weight:bold;
 	font-style:italic;
 	text-decoration:none;
+	color: black;
+}
+.nounderline{
+	text-decoration:none;
+	color:black;
 }
 .brand{
 	font-family: Bodoni Moda;
@@ -63,7 +70,7 @@ header{
 nav a{
 	  width: 7%; 
 }
-@media screen and (max-width: 60em) {
+@media screen and (max-width: 80em) {
 	.nav-button a{
 		text-decoration:none;
 		display: block;
@@ -75,7 +82,7 @@ h2{
 	font-size:1rem;
 	
 }
-.centered,p,.changedfont{
+.centered,p,.changedfont,option{
 	font-family: Didact Gothic, sans-serif;
 }
 
@@ -90,6 +97,7 @@ h3 {
 
 .centered{
 	text-align:center;
+	font-weight: bold;
 }
 
 /*button styling*/

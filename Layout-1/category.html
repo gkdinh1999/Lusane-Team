@@ -30,22 +30,37 @@
 <div class="grid-container">
 		<section class="filter-bar">
 			<section class="man-shirt">
-				<div>
-				<h2 class="centered">Man</h2>
+				<div class="centered">
+				<h2><a href="men.html" class="nounderline">Man</a></h2>
 				</div>
 				<div>
 				<h2 class="centered">Shirt</h2>
 				</div>
 			</section>
 			<section class="sort-by">
-				<div>
-				<h2 class="centered">Category</h2>
+				<div class="centered">
+				<label for="categories">Category</label>
+					<select name="categories" id="categories" class="only">
+						<option value="shirt">Shirt</option>
+						<option value="tshirt">T Shirt</option>
+						<option value="long sleeve">Long Sleeve</option>
+					</select>
 				</div>
-				<div>
-				<h2 class="centered">Filter</h2>
+				<div class="centered">
+				<label for="filter">Filter</label>
+					<select name="filter" id="filter" class="only">
+						<option value="black">Black</option>
+						<option value="blue">Blue</option>
+						<option value="Yellow">Yellow</option>
+					</select>
 				</div>
-				<div>
-				<h2 class="centered">Sort by</h2>
+				<div class="centered">
+				<label for="sortby">Sort by</label>
+					<select name="sortby" id="sortby" class="only">
+						<option value="newest">Newest</option>
+						<option value="pricehtl">Price - High to Low</option>
+						<option value="pricelth">Price - Low to High</option>
+					</select>
 				</div>
 			</section>
 		</section>
