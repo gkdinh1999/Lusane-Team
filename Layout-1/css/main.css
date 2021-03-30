@@ -20,11 +20,14 @@ header{
 	padding-bottom:1rem;
 	background-color:#1E1E20;
 	color:white;
+	position:relative;
 }
+
 .allbutton1{
 	padding:1em;
 	
 }
+
 .allbutton{
 	padding:1em;
 	border:1px solid black;
@@ -190,7 +193,7 @@ h3 {
 .third-image-hp {
   text-align: center;
   position: relative;
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 
 .third-image-hp h3 {
@@ -238,8 +241,9 @@ h3 {
 
 .fourth-image-content h3{
 	margin-bottom: 1rem;
-
+	
 }
+
 
 .fourth-image-content{
   position: absolute;
@@ -261,8 +265,8 @@ h3 {
 /*MENS PAGE START*/
 
 .just-text-men-1 {
-	width: 11em;
-	margin-top: 5rem;
+	width: auto;
+	margin-top: 40%;
 	margin-left: 2.5rem;
 }
 .mens-button-margin {
@@ -271,10 +275,10 @@ h3 {
 }
 
 .just-text-men-2 {
-	text-align: right;
-	width: 11em;
-	margin-top: 10rem;
-	margin-left: 10rem;
+	width: auto;
+	
+	margin-top: 12rem;
+	
 }
 
 /*HP CATEGORY SECTION START*/
@@ -393,7 +397,21 @@ h3 {
 /*hero banner for all pages*/
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/CTA.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.03)), url("img/CTA.png");
+  
+  /* Set a specific height */
+  height: 60%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+.hero-image-1 {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/covermen.png");
 
   /* Set a specific height */
   height: 60%;
